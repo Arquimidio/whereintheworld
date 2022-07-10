@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/whereintheworld/static/js/main.5a3f40f4.js",
+    "main.js": "/whereintheworld/static/js/main.504eae39.js",
     "index.html": "/whereintheworld/index.html",
-    "main.5a3f40f4.js.map": "/whereintheworld/static/js/main.5a3f40f4.js.map"
+    "main.504eae39.js.map": "/whereintheworld/static/js/main.504eae39.js.map"
   },
   "entrypoints": [
-    "static/js/main.5a3f40f4.js"
+    "static/js/main.504eae39.js"
   ]
 }
