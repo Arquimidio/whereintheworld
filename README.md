@@ -25,6 +25,6 @@
 
 1. Informações sobre o tempo atualmente nos países
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+As diretivas de design são provenientes do site [Frontend Mentor](https://www.frontendmentor.io)
 
 
