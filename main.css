@@ -28,6 +28,7 @@ a{
 
 
 img{
+    max-height: 100%;
     max-width: 100%;
     width: 100%;
 }
@@ -44,6 +45,7 @@ h2{
 i{
     margin-right: .5rem;
 }
+
 
 .dark, 
 .dark a{
@@ -168,9 +170,12 @@ select.dark option{
 .all-countries-container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 3rem;
-    justify-content: center;
+    grid-gap: 2rem;
+    justify-content: space-between;
     padding: 1rem;
+    grid-template-rows: auto;
+    grid-auto-rows: 1fr;
+    align-items: stretch;
 }
 
 .country-card{
@@ -254,8 +259,14 @@ select.dark option{
     gap: 1rem;
     flex: 1 1 0px;
 }
+@media screen and (min-width: 850px){
+    .all-countries-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-@media screen and (min-width: 900px) {
+    .img-container{
+        height: 200px;
+    }
 
     .input-container{
         width: 50%;
@@ -275,16 +286,6 @@ select.dark option{
         height: 100%;
     }
 
-    .img-container{
-        height: 200px;
-    }
-
-    .all-countries-container{
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: auto;
-        grid-auto-rows: 1fr;
-        align-items: stretch;
-    }
 
     .country-page-img-container{
         min-width: 35%;
@@ -321,3 +322,15 @@ select.dark option{
     }
 }
 
+
+@media screen and (min-width: 1000px){
+    .all-countries-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .all-countries-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
